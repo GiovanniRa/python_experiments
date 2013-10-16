@@ -1,0 +1,10 @@
+def percentage_calculator():
+    part = int(raw_input("write the first number...  "))
+    whole = int(raw_input("write the second number...  "))
+    print str(part) + "% of " + str(whole) + " is " + str(1.0 * part / whole * 100)
+    
+    
+percentage_calculator()
+
+    
+    
