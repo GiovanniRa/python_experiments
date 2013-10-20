@@ -1,10 +1,23 @@
+import sys
+
 def percentage_calculator():
-    part = int(raw_input("write the first number...  "))
-    whole = int(raw_input("write the second number...  "))
-    print str(part) + "% of " + str(whole) + " is " + str(1.0 * part / whole * 100)
+    part = int(raw_input("\nwrite the first number...  "))
+    whole = int(raw_input("\nwrite the second number...  "))
+    print "\n" +str(part) + "% of " + str(whole) + " is " + str(1.0 * part / whole * 100)
     
-    
+
 percentage_calculator()
+
+answer = raw_input("\ndo you want to quit?    ") 
+
+if answer == "yes":
+    sys.exit(0)
+else:
+    percentage_calculator()
+     
+
+    
+    
 
     
     
